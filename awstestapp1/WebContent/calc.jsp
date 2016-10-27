@@ -11,6 +11,7 @@
 <h1>Calculator Page</h1>
     <div id="content" class="container">
         <div class="section grid grid5 s3">
+            <h2>Check if the poll picks up the page change </h2>
             <h2>Calculate result: </h2>
             <% Calculator mycalc = new Calculator(); %>
             <% int sum = mycalc.evaluate("1+2+3"); %>      
